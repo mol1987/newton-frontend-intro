@@ -1,0 +1,278 @@
+
+@media only screen and (min-width: 768px) {
+    body {
+        margin: 0 200px 200px 200px;
+        background-color: grey;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+    border-width: 0px;
+    background-color: grey;
+    margin: 0 0 200px 0;
+    }
+}
+
+body {
+    border-width: 0px;
+    background-color: grey;
+    margin: 0 0 200px 0;
+}
+
+
+p {
+    font-size: 20;
+
+    font-family: "Fira Sans";
+}
+h1 {
+/*    font-family: "Fira Sans";*/
+
+    font-family: "Frank Ruhl Libre";
+}
+
+header {
+    display: flex;
+    height: 500px;
+}
+header .a {
+    display: grid;
+    flex-direction: column;
+    background-color: rgb(180, 228, 237);
+    width: 50%;
+    align-items: left;
+    justify-content: center;
+    text-align: left;
+    background-image: url("assets/family.png");
+    background-size: 50% 50%;
+    background-repeat: no-repeat;
+    background-position: right bottom;
+}
+header .a p {
+    text-align: left;
+    width: 270px;
+    color: grey;
+}
+header .a h1 {
+    text-align: left;
+    width: 330px;
+    font-size: 50px;
+    line-height: 40px;
+    margin-bottom: 0px;
+    height: 50px;
+}
+
+header .b {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: stretch;
+    align-items: stretch;
+}
+header .ba {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(212, 106, 0);
+    height: 50%;        
+}
+header p {
+    margin: 0;
+}
+header h2 {
+    margin: 0;
+}
+header .bb {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(235, 174, 33);
+    height: 50%;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: lightgrey;
+    height: 80px;
+}
+
+
+main .join {
+    background-color: grey;
+}
+main .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: orange;
+    height: 700px;
+    margin-bottom: -300px;
+}
+
+
+.about center {
+    width: 300px;
+    margin-top: -30px;
+}
+main h1 {
+    color: white; 
+}
+
+.join {
+    display: flex;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: -23px;
+ 
+}
+.join .a {
+    display: grid;
+    flex-direction: column; 
+    align-items: left;
+    justify-content: center;
+    width: 50%;
+    top: -100px;
+    position: relative;
+}
+.join .a h1 {
+    width: 310px;
+}
+.join .b {
+    width: 50%;
+    display: grid;
+    flex-direction: column; 
+    align-items: left;
+    justify-content: center;
+    width: 30%;
+    top: -100px;
+    position: relative;
+}
+
+
+.how {
+    display: flex;
+    flex-direction: column;
+    
+}
+main {
+    position: relative;
+}
+.cards {
+    display: flex;
+    background-color: rgba(0, 0, 0, 0);
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: -550px;
+}
+
+
+.image-code {
+    width: 230px;
+    height: 150px;
+    position: absolute;
+    top: -45px;
+}
+.child-image {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: DeepSkyBlue;
+}
+.justright-image {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: DeepSkyBlue;
+}
+.old-image {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    background-color: DeepSkyBlue;
+}
+
+.children {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    background-color: white;
+    margin-right: 2%;
+    margin-left: 2%;
+    padding-top: 100px;
+    height: 200px;
+}
+
+.children p {
+    align-self: center;
+    align-text: center;
+    margin-top: -20px;
+}
+
+
+.child-image img {
+    margin-top: 20px;
+    width: 100px;
+    height: 200px;
+}
+.justright-image img {
+    margin-top: 20px;
+    width: 150px;
+    height: 500px;
+}
+.old-image img {
+    margin-top: 20px;
+    width: 150px;
+    height: 500px;
+}
+
+
+
+
+.how .row1, .how .row2 {
+    display: flex;
+    margin-left: -5px;
+    margin-right: -5px;
+    justify-content: center;
+}
+
+.how .box {
+    height: 200px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+}
+.how .boxhow {
+    height: 200px;
+    width: 33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+
+.how p {
+   align-self: center; 
+   justify-self: center;
+   margin: 20px;
+}
+
+.how h1 {
+   align-self: center; 
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+    background-color: DarkGrey;
+}
